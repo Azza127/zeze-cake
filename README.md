@@ -1,0 +1,2 @@
+# zeze_cake
+Zeze Cake is a modern catalog website for a local cake brand, showcasing products through a clean and visually appealing interface. Users can explore different cake designs and flavors, and place orders directly from the catalog, with order details instantly sent to the owner via WhatsApp for quick communication.
