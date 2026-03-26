@@ -240,7 +240,7 @@ body {
 .image-frame img {
   width: 100%;
   max-width: 520px;
-  height: auto;
+  height: 480px;
   object-fit: cover;
 }
 
@@ -523,7 +523,7 @@ body {
 /* text inside image */
 .contact-text{
   position:absolute;
-  top:35%;
+  top:25%;
   left:50%;
   transform:translate(-50%, -50%);
   text-align:center;
@@ -533,11 +533,12 @@ body {
 /* title */
 .contact-text h2{
   font-family:"Playfair Display",serif;
-  font-size:30px;
+  font-size:27px;
   font-weight: 300;
   letter-spacing: 1.5px;
+  line-height: 1.6;
   color:#E3C48E;
-  margin-bottom:12px;
+  margin-bottom:6px;
 }
 
 /* subtitle */
@@ -552,7 +553,7 @@ body {
 .contact-social{
   display:flex;
   justify-content:center;
-  gap:18px;
+  gap:12px;
   margin-top:14px;
 }
 
@@ -623,7 +624,7 @@ body {
   list-style: none;     
   display: flex;          
   justify-content: center; 
-  gap:18px;             
+  gap:12px;             
   padding:0;
   margin:0;
 }
@@ -737,17 +738,24 @@ button{
   }
   
   .contact-text{
-    top:38%;
+    top:25%;
+    width: 80%;
   }
   
   .contact-text h2{
-    font-size:26px;
+    font-size:20px;
+    line-height: 1.4;
+    margin-bottom: 4px;
   }
   
   .contact-text a{
     font-size:14px;
   }
   
+  .contact-social{
+    gap: 10px;
+  }
+
   .contact-social img{
     width:16px;
     height:16px;
@@ -919,7 +927,7 @@ button{
 }
 
 .view-menu{
-  color: #E3C48E;
+  color: #f3e5d8dd;
 }
 
 .contact{
@@ -1054,7 +1062,7 @@ button{
   }
 
   .view-menu{
-    color: #E3C48E;
+    color: #f3e5d8dd;
   }
   
 .contact{
