@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
       const encodedMessage = encodeURIComponent(message);
 
-      const whatsappNumber = "201017158284";
+      const whatsappNumber = "201091907257";
 
       const url = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
 

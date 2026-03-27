@@ -298,7 +298,7 @@ opacity:0.5;
 
   .error{
     position: absolute;
-    bottom: 12px;
+    bottom: 30px;
     right: 0;
     font-size: 12px;
     color:#f3c7a6a7;
@@ -435,7 +435,6 @@ opacity:0.5;
   
     .error{
       margin-left: 0;
-      margin-top: -20px;
     }     
 
     .footer{
