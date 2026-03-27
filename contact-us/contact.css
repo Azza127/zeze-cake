@@ -541,6 +541,17 @@ opacity:0.5;
   
     .contact{
       margin:0;
+      color:#f3e5d8d5;
+    }
+    
+    .contact p{
+      display:inline-flex;
+      gap:8px;
+      font-size:8px;
+    }
+  
+    .contact p img{
+      width: 7px;
     }
   
     .enquire-right{
@@ -605,6 +616,20 @@ opacity:0.5;
   .desc{
     font-size:11px;
     line-height:1.8;
+  }
+
+  .contact{
+    color:#f3e5d8d5;
+  }
+  
+  .contact p{
+    display:inline-flex;
+    gap:8px;
+    font-size:8px;
+  }
+
+  .contact p img{
+    width: 7px;
   }
 
   input, textarea{
